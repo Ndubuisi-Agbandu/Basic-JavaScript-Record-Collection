@@ -45,5 +45,3 @@ var collection = {
 // Alter values below to test your code
 updateRecords(5439, "artist", "ABBA");
 
-Click [HERE](http://github.com) to read more about the code.
-
