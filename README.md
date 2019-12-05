@@ -10,7 +10,7 @@ If **prop** isn't **"tracks"** and **value** isn't empty (**""**), update or set
 
 Your function must always return the entire collection object.
 
-###### There are several rules for handling incomplete data:
+#### There are several rules for handling incomplete data:
 
 If **prop** is **"tracks"** but the album doesn't have a **"tracks"** property, create an empty array before adding the new **value** to the album's corresponding property.
 
@@ -18,7 +18,7 @@ If **prop** is **"tracks"** and **value** isn't empty (**""**), push the **value
 
 If **value** is empty (**""**), delete the given **prop** property from the album.
 
-###### Note:
+#### Note:
 
 1. You should not change the **collection** object's initialization
 1. After **updateRecords(5439, "artist", "ABBA"), artist** should be **"ABBA"**
